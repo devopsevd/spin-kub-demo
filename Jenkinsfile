@@ -13,7 +13,7 @@ node("JenkinsMasterDocker") {
   //sh("docker run ${imageTag} go test")
   }
   stage ("Push image to registry"){
-    //sh("docker login -u devopsevd -p Gapple@123")
+    
   //sh("docker push ${imageTag}")
   }
   stage ("Deploy Application"){
